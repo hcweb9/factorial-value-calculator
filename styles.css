@@ -1,0 +1,65 @@
+* {
+  margin: 0px auto;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(to right, #ffffff, #f2f2f2);
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+#content{
+    margin-top: 30px;
+   
+}
+
+form #fieldNumber {
+  margin: 10px;
+  text-align: center;
+  background: white;
+  border: 1px thick black;
+  font-size: medium;
+}
+label {
+  font-weight: bold;
+  margin-left: 10px;
+}
+#text {
+  display: block;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+#resultonweb {
+  display: block;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+#enter,
+#reset {
+  background: rgb(221, 212, 212);
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#reset {
+  position: fixed;
+  top: 150px;
+  left: 361px;
+}
+
+#reset:active,
+#enter:active {
+  background-color: #ddd;
+}
